@@ -9,7 +9,7 @@ namespace Fx.Common.Services;
 /// <summary>
 /// A contract for <see cref="DateTimeOffset"/> providers.
 /// </summary>
-public interface IDateTimeTimeProvider : ISingletonService
+public interface IDateTimeProvider : ISingletonService
 {
     /// <summary>
     /// Gets a System.DateTimeOffset object that is set to the current date and time on the current

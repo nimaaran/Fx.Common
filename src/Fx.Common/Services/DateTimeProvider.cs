@@ -7,9 +7,9 @@
 namespace Fx.Common.Services;
 
 /// <summary>
-/// A default implementation for <see cref="IDateTimeTimeProvider"/>.
+/// A default implementation for <see cref="IDateTimeProvider"/>.
 /// </summary>
-public sealed class DateTimeProvider : IDateTimeTimeProvider
+public sealed class DateTimeProvider : IDateTimeProvider
 {
     /// <inheritdoc/>
     public DateTimeOffset Now => DateTimeOffset.Now;

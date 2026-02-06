@@ -26,9 +26,9 @@ public static class DateTimeHelper
     /// </summary>
     public static DateTimeOffset UtcNow => ResolveProvider().UtcNow;
 
-    private static IDateTimeTimeProvider ResolveProvider()
+    private static IDateTimeProvider ResolveProvider()
     {
-        var provider = ServiceResolver.Resolve<IDateTimeTimeProvider>()
+        var provider = ServiceResolver.Resolve<IDateTimeProvider>()
                        ?? throw new OperationFailedException();
 
         return provider;
