@@ -30,7 +30,7 @@
   </ItemGroup>
   
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-  	<CodeAnalysisRuleSet>$(SolutionDir)Common.ruleset</CodeAnalysisRuleSet>
+  	<CodeAnalysisRuleSet>../../Common.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   
   <ItemGroup>
