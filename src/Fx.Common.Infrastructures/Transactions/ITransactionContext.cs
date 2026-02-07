@@ -1,7 +1,7 @@
 ﻿// ------------------------------------------------------------------------------------------------
-// Copyright (c) 2026. All Rights Reserved.
-// This software is proprietary and confidential. Unauthorized use, modification or distribution is
-// strictly prohibited. Read the LICENSE file or contact us for licensing inquiries.
+// All rights reserved. This project and this file is published under the Apache License 2. So, Any
+// use of this project must comply with the terms and policies described in the project’s `LICENSE`
+// file. For more information, please visit the project repository on GitHub or contact with owner.
 // ------------------------------------------------------------------------------------------------
 
 namespace Fx.Common.Infrastructures.Transactions;
